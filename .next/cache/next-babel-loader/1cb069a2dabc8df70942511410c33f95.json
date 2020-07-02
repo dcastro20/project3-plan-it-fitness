@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function fetcher(url) {\n  return fetch(url).then(function (r) {\n    return r.json();\n  });\n}","map":null,"metadata":{},"sourceType":"module"}

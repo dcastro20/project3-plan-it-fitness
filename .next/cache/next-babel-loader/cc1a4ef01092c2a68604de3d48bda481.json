@@ -1,0 +1,1 @@
+{"ast":null,"code":"import nextConnect from 'next-connect';\nimport database from './database';\nimport session from './session';\nimport passport from '../lib/passport';\nconst middleware = nextConnect();\nmiddleware.use(database).use(session).use(passport.initialize()).use(passport.session());\nexport default middleware;","map":null,"metadata":{},"sourceType":"module"}
